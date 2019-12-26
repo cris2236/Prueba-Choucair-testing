@@ -1,0 +1,79 @@
+{
+  "id": "00852d5e-b484-4959-9bb5-60f7f38d6cf6",
+  "version": "2.0",
+  "name": "03",
+  "url": "https://www.choucairtesting.com",
+  "tests": [{
+    "id": "7b57e240-d6c0-4d52-85e0-62bfe4e73b1b",
+    "name": "03",
+    "commands": [{
+      "id": "3ed05198-baaf-4588-a779-7c8b58dfd98a",
+      "comment": "",
+      "command": "open",
+      "target": "/servicio/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0abbed5e-ddc2-48fd-868c-fd292137a444",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed5185f4-5613-487d-92b9-0b4f301546ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-icon",
+      "targets": [
+        ["css=.search-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fac536c5-2501-4444-a4b3-cf3f7729d792",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06e650b8-173c-4dc8-b2ac-718c56f04a73",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=s",
+      "targets": [
+        ["name=s", "name"],
+        ["css=.search-field", "css:finder"],
+        ["xpath=//input[@name='s']", "xpath:attributes"],
+        ["xpath=//ul[@id='menu-menu-1']/li[8]/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "3fa0c9d8-37ee-4f65-930a-e0f6ebeb425c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Servicios",
+      "targets": [
+        ["linkText=Servicios", "linkText"],
+        ["css=#menu-item-6142 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Servicios')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6142']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/servicio/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Servicios')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "30620fe4-7030-44ed-801a-0fe33169999d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7b57e240-d6c0-4d52-85e0-62bfe4e73b1b"]
+  }],
+  "urls": ["https://www.choucairtesting.com/"],
+  "plugins": []
+}

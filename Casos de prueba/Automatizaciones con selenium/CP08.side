@@ -1,0 +1,60 @@
+{
+  "id": "860fa56f-f615-49c8-874b-9d2653c24f65",
+  "version": "2.0",
+  "name": "CP08",
+  "url": "https://www.choucairtesting.com",
+  "tests": [{
+    "id": "318948de-de61-4d23-b026-25fc6f4cb203",
+    "name": "CP08",
+    "commands": [{
+      "id": "62efc429-5019-407c-862d-4d2f65fbc0bf",
+      "comment": "",
+      "command": "open",
+      "target": "/servicio/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6219da5-3333-4cd1-88d0-33d8969d6760",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e478972-f35d-4e7b-812a-50c614a76648",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9260)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd9ae0b5-0ce7-4d01-9896-a9e55e12f685",
+      "comment": "",
+      "command": "click",
+      "target": "css=.go-top",
+      "targets": [
+        ["css=.go-top", "css:finder"],
+        ["xpath=//div[@id='page']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee64bb5e-a0b5-45e4-8142-e63c0d7285e5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2685)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7019a3a4-5b3c-4357-86ff-f5932eccb597",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["318948de-de61-4d23-b026-25fc6f4cb203"]
+  }],
+  "urls": ["https://www.choucairtesting.com/"],
+  "plugins": []
+}

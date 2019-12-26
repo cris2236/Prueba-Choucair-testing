@@ -1,0 +1,166 @@
+{
+  "id": "dc85913a-5374-4b44-9361-dcb6846ea213",
+  "version": "2.0",
+  "name": "01",
+  "url": "https://www.choucairtesting.com",
+  "tests": [{
+    "id": "9861e7c0-d6c1-42ec-9fbb-f6a084893af6",
+    "name": "01",
+    "commands": [{
+      "id": "1eb37fcf-925a-4085-8db2-13eb8de1dbf0",
+      "comment": "",
+      "command": "open",
+      "target": "/servicio/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6369fe8b-cf14-4936-a65d-198bb2e648c7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6c23a37-76a0-4c8b-8098-98125f1c0131",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Industrias",
+      "targets": [
+        ["linkText=Industrias", "linkText"],
+        ["css=#menu-item-870 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Industrias')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-870']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/industries/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Industrias')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9185ed5-4868-4fe4-a10d-95a9c56d75a4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Industrias",
+      "targets": [
+        ["linkText=Industrias", "linkText"],
+        ["css=#menu-item-870 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Industrias')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-870']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/industries/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Industrias')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "269adc6e-e237-49c1-992d-70fd9e0b3a9f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1597)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d8fb583-8a5a-45ab-9207-585cbff019d2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5fab62af-550a-41a1-b6b0-457863c39d8e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Formación",
+      "targets": [
+        ["linkText=Formación", "linkText"],
+        ["css=#menu-item-1876 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Formación')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-1876']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/formacion/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Formación')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1ceb34c-ed32-4bdf-97cf-beb64b37fafb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,833)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6046beea-6149-46be-9ba5-74404a45659a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,667)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "197d8a43-2840-4bbf-b83e-58542f822315",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Comunidad",
+      "targets": [
+        ["linkText=Comunidad", "linkText"],
+        ["css=#menu-item-2661 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Comunidad')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2661']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/comunidad/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Comunidad')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ea35f7e-06ef-42b1-963c-ebf4b68f680c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77900a67-7a40-4967-b4d7-da9010b11c3d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53aeff65-9393-4dea-bd44-50fcaa6776c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Servicios",
+      "targets": [
+        ["linkText=Servicios", "linkText"],
+        ["css=#menu-item-6142 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Servicios')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-6142']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.choucairtesting.com/servicio/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Servicios')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7463bd4-abd9-48cf-a2e0-97ffcaf1d628",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,777)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "226454d0-6383-4d66-90ac-b1f341befefc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,913)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8bf268d9-7d5d-4865-84ca-29c96d8bfd53",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9861e7c0-d6c1-42ec-9fbb-f6a084893af6"]
+  }],
+  "urls": ["https://www.choucairtesting.com/"],
+  "plugins": []
+}

@@ -1,0 +1,97 @@
+{
+  "id": "6762d34f-ca14-4850-adc3-7c10cac9af62",
+  "version": "2.0",
+  "name": "04",
+  "url": "https://www.choucairtesting.com",
+  "tests": [{
+    "id": "d78e65e6-980c-4797-89cf-6b25d3d84cb6",
+    "name": "04",
+    "commands": [{
+      "id": "64345c30-7325-4e67-93be-297dc86cddb8",
+      "comment": "",
+      "command": "open",
+      "target": "/servicio/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24bd5a08-6349-44d2-b8e5-89c230aec3d9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3c4b66f-314a-4614-9ce7-7e7126b98f40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has_eae_slider:nth-child(1) .elementor-element:nth-child(2) .elementor-animation-grow",
+      "targets": [
+        ["css=.has_eae_slider:nth-child(1) .elementor-element:nth-child(2) .elementor-animation-grow", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.choucairtesting.com/wp-content/uploads/2018/09/DPM.png')]", "xpath:img"],
+        ["xpath=//main[@id='main']/div/div/div/div/section[11]/div/div/div/div/div/div[2]/div/div/figure/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43046a93-afdd-4743-ad6e-0b37cd3ba393",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.has_eae_slider:nth-child(1) .elementor-element:nth-child(2) .elementor-animation-grow",
+      "targets": [
+        ["css=.has_eae_slider:nth-child(1) .elementor-element:nth-child(2) .elementor-animation-grow", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.choucairtesting.com/wp-content/uploads/2018/09/DPM.png')]", "xpath:img"],
+        ["xpath=//main[@id='main']/div/div/div/div/section[11]/div/div/div/div/div/div[2]/div/div/figure/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b52423d5-3e06-492a-94d7-58cb090f1392",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.has_eae_slider:nth-child(1) .elementor-element:nth-child(2) .elementor-animation-grow",
+      "targets": [
+        ["css=.has_eae_slider:nth-child(1) .elementor-element:nth-child(2) .elementor-animation-grow", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.choucairtesting.com/wp-content/uploads/2018/09/DPM.png')]", "xpath:img"],
+        ["xpath=//main[@id='main']/div/div/div/div/section[11]/div/div/div/div/div/div[2]/div/div/figure/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "392b1ade-eacf-4b65-b496-beac3cbcdcd4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5509)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "836de8e9-739d-4d05-8f31-ea39661d6fc4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4868)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94dc6bef-521e-41e7-ad5d-ad45a0180c1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has_eae_slider:nth-child(2) .elementor-element:nth-child(2) .elementor-animation-grow",
+      "targets": [
+        ["css=.has_eae_slider:nth-child(2) .elementor-element:nth-child(2) .elementor-animation-grow", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.choucairtesting.com/wp-content/uploads/2018/09/Moviles.png')]", "xpath:img"],
+        ["xpath=//main[@id='main']/div/div/div/div/section[11]/div/div/div[2]/div/div/div[2]/div/div/figure/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/figure/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0cc3d548-1937-4eba-8b66-6f65c216b0c6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d78e65e6-980c-4797-89cf-6b25d3d84cb6"]
+  }],
+  "urls": ["https://www.choucairtesting.com/"],
+  "plugins": []
+}

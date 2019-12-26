@@ -1,0 +1,75 @@
+{
+  "id": "589d515c-01d5-49d6-b0d4-043f44ae1285",
+  "version": "2.0",
+  "name": "CP06",
+  "url": "https://www.choucairtesting.com",
+  "tests": [{
+    "id": "5e2a3dc6-b184-46f6-8d5b-1d81b137e12e",
+    "name": "CP06",
+    "commands": [{
+      "id": "c94cd3e7-01d3-4d79-93ac-450881858685",
+      "comment": "",
+      "command": "open",
+      "target": "/servicio/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2f5b0ea-2c34-456a-8a51-f675333b913f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91e61523-4190-43df-ab6b-2fcaebfea90f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad02c0b9-2846-465c-8211-256452e61c9d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9260)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02a8916b-6306-432d-bf14-495183d88dc6",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) > strong",
+      "targets": [
+        ["css=a:nth-child(1) > strong", "css:finder"],
+        ["xpath=//footer[@id='colophon']/div/div/a/strong", "xpath:idRelative"],
+        ["xpath=//a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'TRATAMIENTO DE DATOS |')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7ced556-e9f1-41d3-82d6-becdf2c9d9b9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,432)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dd0026b-959e-46f3-9cb5-d7ba8b4fbd4f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "42c020d3-805c-4167-8067-3e3e2c4717ff",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5e2a3dc6-b184-46f6-8d5b-1d81b137e12e"]
+  }],
+  "urls": ["https://www.choucairtesting.com/"],
+  "plugins": []
+}

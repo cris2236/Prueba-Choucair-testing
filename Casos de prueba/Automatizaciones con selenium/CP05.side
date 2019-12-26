@@ -1,0 +1,60 @@
+{
+  "id": "39f7afe8-ce5c-4336-820b-f2cc26f4e263",
+  "version": "2.0",
+  "name": "05",
+  "url": "https://www.choucairtesting.com",
+  "tests": [{
+    "id": "154e2093-95e3-4142-b494-cc51a29837aa",
+    "name": "05",
+    "commands": [{
+      "id": "ceaf9579-5805-405c-b5f8-fc7c4314f54d",
+      "comment": "",
+      "command": "open",
+      "target": "/servicio/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26d999a3-5d0d-4c48-9321-805b6c8ebfb7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f8218d9-d698-4039-8da7-33f2656f116f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3667)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72c540ad-7850-49ba-8960-c32f3cda258b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6382)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed10e29d-8510-46bd-8939-71bf377bc1e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.elementor-button-text",
+      "targets": [
+        ["css=.elementor-button-text", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/div/div/section[41]/div/div/div/div/div/div[2]/div/div/a/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d90c8fc1-206a-47c6-8a83-455ac32016c2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["154e2093-95e3-4142-b494-cc51a29837aa"]
+  }],
+  "urls": ["https://www.choucairtesting.com/"],
+  "plugins": []
+}
